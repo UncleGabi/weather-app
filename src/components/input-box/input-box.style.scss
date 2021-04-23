@@ -1,0 +1,21 @@
+.input-box {
+  width: 100%;
+  padding-top: 120px;
+  text-align: center;
+
+  input {
+    height: 50px;
+    width: 30%;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bolder;
+    background-color: rgba($color: #FFF, $alpha: 0.4);
+    border: none;
+    border-radius: 30px;
+
+    &:focus {
+      outline: none;
+      place-content: "";
+    }
+  }
+}
